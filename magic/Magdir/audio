@@ -543,7 +543,15 @@
 # From: Alex Myczko <alex@aiei.ch>
 
 # https://github.com/rerrahkr/BambooTracker
-0	string		BambooTrackerMod	BambooTracker
+0	string		BambooTrackerMod	BambooTracker module
+>22	byte	x	\b, version %u
+>21	byte	x	\b.%u
+>20	byte	x	\b.%u
+
+0	string		BambooTrackerIst	BambooTracker instrument
+>22	byte	x	\b, version %u
+>21	byte	x	\b.%u
+>20	byte	x	\b.%u
 
 0    	string		RAWADATA	RdosPlay RAW
 
